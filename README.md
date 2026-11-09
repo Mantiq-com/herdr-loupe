@@ -153,3 +153,7 @@ nix shell nixpkgs#xdotool --command npm run test:visual
 ```
 
 [RECIPE.md](RECIPE.md) describes the implementation and its constraints.
+
+## Licence
+
+Apache-2.0, see [LICENSE](LICENSE) and [NOTICE](NOTICE).
