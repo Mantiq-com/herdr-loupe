@@ -1,0 +1,5 @@
+body { margin: 0; font: 18px system-ui; background: #f4f0e8; color: #20342e; }
+main { padding: 32px; }
+button, input, a { display: inline-block; padding: 12px; margin: 8px; }
+button { background: #285e4d; color: white; border: 0; border-radius: 6px; }
+.space { height: 1000px; }

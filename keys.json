@@ -1,0 +1,9 @@
+{
+  "global": {
+    "ctrl-shift-l": { "command": "tab.new", "args": { "name": "Loupe", "mod": "loupe" } }
+  },
+  "mod:loupe": {
+    "ctrl-shift-a": "loupe.annotate",
+    "ctrl-enter": "loupe.send"
+  }
+}

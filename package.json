@@ -1,0 +1,18 @@
+{
+  "name": "herdr-loupe",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Review web artifacts, add annotations, and send feedback to your coding agent in Herdr.",
+  "bin": { "herdr-loupe": "bin/herdr-loupe.mjs" },
+  "scripts": {
+    "test": "node scripts/check.mjs",
+    "test:unit": "node --test test/model.test.mjs",
+    "test:browser": "node --test test/browser.test.mjs",
+    "test:visual": "node scripts/visual.mjs",
+    "install:mod": "node scripts/install.mjs",
+    "check:mod": "herdr-app check mods/loupe"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": { "playwright-core": "1.65.0" }
+}

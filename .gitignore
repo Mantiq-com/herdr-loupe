@@ -1,0 +1,5 @@
+node_modules/
+tmp/
+*.error
+mods/loupe/*.d.ts
+mods/loupe/jsconfig.json

@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<title>Loupe preview fixture</title>
+<link rel="stylesheet" href="preview.css">
+<main>
+  <h1>Review this preview</h1>
+  <button id="count" onclick="this.textContent = Number(this.textContent) + 1">0</button>
+  <input id="name" aria-label="Name" placeholder="Type here" oninput="document.querySelector('#changing').textContent = this.value">
+  <a id="next" href="preview.html?second">Next page</a>
+  <p id="changing">Content before refresh</p>
+  <div class="space"></div>
+  <button id="below" onclick="this.textContent = 'Activated'">Below the fold</button>
+</main>
+</html>
